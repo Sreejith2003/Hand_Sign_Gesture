@@ -36,10 +36,11 @@ pip install numpy
 ```
 git clone (the link of this repo)
 ```
-2. Run the datacollection.py file to get the data by changing the path of the folder. 
-3. Install the required dependencies using the provided requirements.txt file.
-4. After collecting the data go to https://teachablemachine.withgoogle.com/train/image to train the data collected.
-5. Download the keras file in that and add the kerad.h5 file path in the test.py file.
-6. Run the test.py folder to start the Hand Sign Gesture Communication system.
+2.Install the required dependencies using the above commands.
+3. Create a folder to save the data and whithin that create folders for specific handsigns in which the data is to be stored.
+4. Run the datacollection.py file to get the data by changing the path of the folder. 
+5. After collecting the data go to https://teachablemachine.withgoogle.com/train/image to train the data collected.
+6. Download the keras file in that and add the kerad.h5 file path in the test.py file.
+7. Run the test.py folder to start the Hand Sign Gesture Communication system.
 
 Happy Reading :)
